@@ -1,0 +1,16 @@
+PODS:
+  - SampleiOSFramework (1.0.0)
+
+DEPENDENCIES:
+  - SampleiOSFramework (from `../SampleiOSFramework`)
+
+EXTERNAL SOURCES:
+  SampleiOSFramework:
+    :path: "../SampleiOSFramework"
+
+SPEC CHECKSUMS:
+  SampleiOSFramework: b137459f031423157db539c4d5341ac182685257
+
+PODFILE CHECKSUM: 704c4f0a5f22e6eefb2bc51ad7bde361e05734fd
+
+COCOAPODS: 1.9.3
