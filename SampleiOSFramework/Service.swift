@@ -31,7 +31,7 @@ public class Service: UIView {
     private func setUpView() {
         let bundle = Bundle(for: type(of: self))
         let nib = UINib(nibName: self.nibName, bundle: bundle)
-        self.contentView = (nib.instantiate(withOwner: self, options: nil).first as! UIView)
+        self.contentView = nib.instantiate(withOwner: self, options: nil).first as! UIView
         addSubview(contentView)
 
         contentView.center = self.center
