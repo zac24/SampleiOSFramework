@@ -7,11 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A04394BC254066C2007BEA52 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A04394BB254066C2007BEA52 /* Storyboard.storyboard */; };
+		A04394C0254071FA007BEA52 /* ServiceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A04394BF254071FA007BEA52 /* ServiceView.xib */; };
 		A0A1500F253EEEF300FCDDAA /* SampleiOSFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = A0A1500D253EEEF300FCDDAA /* SampleiOSFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A0A15016253EEF5500FCDDAA /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A15015253EEF5500FCDDAA /* Service.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A04394BB254066C2007BEA52 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		A04394BF254071FA007BEA52 /* ServiceView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ServiceView.xib; sourceTree = "<group>"; };
 		A0A1500A253EEEF300FCDDAA /* SampleiOSFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SampleiOSFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0A1500D253EEEF300FCDDAA /* SampleiOSFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleiOSFramework.h; sourceTree = "<group>"; };
 		A0A1500E253EEEF300FCDDAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +55,8 @@
 				A0A1500D253EEEF300FCDDAA /* SampleiOSFramework.h */,
 				A0A1500E253EEEF300FCDDAA /* Info.plist */,
 				A0A15015253EEF5500FCDDAA /* Service.swift */,
+				A04394BF254071FA007BEA52 /* ServiceView.xib */,
+				A04394BB254066C2007BEA52 /* Storyboard.storyboard */,
 			);
 			path = SampleiOSFramework;
 			sourceTree = "<group>";
@@ -125,6 +131,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A04394C0254071FA007BEA52 /* ServiceView.xib in Resources */,
+				A04394BC254066C2007BEA52 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

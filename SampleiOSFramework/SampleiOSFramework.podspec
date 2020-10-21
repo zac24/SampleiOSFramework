@@ -16,5 +16,6 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "10.0"
   spec.source       = { :git => "https://github.com/zac24/SampleiOSFramework.git", :tag => "1.0.0" }
   spec.source_files  = "SampleiOSFramework/**/*.{h,m,swift}"
+  spec.resources = "SampleiOSFramework/**/*.xib"
 
 end
