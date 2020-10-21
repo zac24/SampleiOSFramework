@@ -14,7 +14,7 @@
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
             <viewLayoutGuide key="safeArea" id="oma-NH-eI1"/>
-            <point key="canvasLocation" x="271" y="-289"/>
+            <point key="canvasLocation" x="249" y="-333"/>
         </view>
     </objects>
 </document>
