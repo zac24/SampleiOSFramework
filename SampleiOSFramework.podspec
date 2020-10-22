@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "10.0"
   spec.source       = { :git => "https://github.com/zac24/SampleiOSFramework.git", :branch => "main" }
   spec.dependency 'Alamofire', '5.2'
-  spec.dependency 'AFNetworking', '4.0'
+ # spec.dependency 'AFNetworking', '4.0'
   spec.source_files  = "SampleiOSFramework/**/*.{h,m,swift}"
   spec.resources = "SampleiOSFramework/**/*.{xib,storyboard}"
 
