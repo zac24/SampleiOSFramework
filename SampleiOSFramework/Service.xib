@@ -16,7 +16,30 @@
         <view contentMode="scaleToFill" id="bgP-ed-FTi">
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bxJ-Ld-32d">
+                    <rect key="frame" x="50" y="348" width="314" height="200"/>
+                    <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="200" id="f1a-dg-XQH"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This view is from library" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pey-Yz-B0R">
+                    <rect key="frame" x="117" y="437.5" width="180.5" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
             <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="oma-NH-eI1" firstAttribute="trailing" secondItem="bxJ-Ld-32d" secondAttribute="trailing" constant="50" id="0Ux-Hh-CDX"/>
+                <constraint firstItem="bxJ-Ld-32d" firstAttribute="centerX" secondItem="bgP-ed-FTi" secondAttribute="centerX" id="2Ol-e9-Uki"/>
+                <constraint firstItem="bxJ-Ld-32d" firstAttribute="leading" secondItem="oma-NH-eI1" secondAttribute="leading" constant="50" id="6Eo-mc-PYd"/>
+                <constraint firstItem="bxJ-Ld-32d" firstAttribute="centerY" secondItem="bgP-ed-FTi" secondAttribute="centerY" id="MJg-1w-xhU"/>
+                <constraint firstItem="Pey-Yz-B0R" firstAttribute="centerX" secondItem="bgP-ed-FTi" secondAttribute="centerX" id="VR1-iL-dIG"/>
+                <constraint firstItem="Pey-Yz-B0R" firstAttribute="centerY" secondItem="bgP-ed-FTi" secondAttribute="centerY" id="WPa-dx-7Sl"/>
+            </constraints>
             <viewLayoutGuide key="safeArea" id="oma-NH-eI1"/>
             <point key="canvasLocation" x="249" y="-333"/>
         </view>
