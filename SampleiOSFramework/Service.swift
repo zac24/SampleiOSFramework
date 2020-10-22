@@ -41,7 +41,7 @@ public class Service: UIViewController {
     
     public static func presentFirstViewControllerOn(_ viewController:UIViewController) {
         let storyBoard : UIStoryboard = UIStoryboard(name: "Storyboard", bundle:nil)
-        let nextViewController = storyBoard.instantiateViewController(withIdentifier: "Service") as! viewController
+        let nextViewController = storyBoard.instantiateViewController(withIdentifier: "Service") 
         viewController.present(nextViewController, animated:true, completion:nil)
     }
     
