@@ -7,9 +7,13 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Service" customModule="SampleiOSFramework" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Service" customModule="SampleiOSFramework" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="bgP-ed-FTi" id="ajI-6Z-QLy"/>
+            </connections>
+        </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="bgP-ed-FTi" customClass="Service" customModule="SampleiOSFramework" customModuleProvider="target">
+        <view contentMode="scaleToFill" id="bgP-ed-FTi">
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>

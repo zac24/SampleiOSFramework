@@ -22,11 +22,11 @@ public class Service: UIViewController {
 //      setUpView()
 //    }
 
-    public required init?(coder aDecoder: NSCoder) {
-       // For use in Interface Builder
-       super.init(coder: aDecoder)
-//      setUpView()
-    }
+//    public required init?(coder aDecoder: NSCoder) {
+//       // For use in Interface Builder
+//       super.init(coder: aDecoder)
+////      setUpView()
+//    }
     
 //    private func setUpView() {
 //        let bundle = Bundle(for: type(of: self))
@@ -39,11 +39,13 @@ public class Service: UIViewController {
 //        contentView.translatesAutoresizingMaskIntoConstraints = true
 //    }
     
-    public static func presentFirstViewControllerOn(_ viewController:UIViewController) {
-        let storyBoard : UIStoryboard = UIStoryboard(name: "Storyboard", bundle:nil)
-        let nextViewController = storyBoard.instantiateViewController(withIdentifier: "Service") 
-        viewController.present(nextViewController, animated:true, completion:nil)
-    }
+//    public static func presentFirstViewControllerOn(_ viewController:UIViewController) {
+//
+//
+//        let storyBoard : UIStoryboard = UIStoryboard(name: "Storyboard", bundle:nil)
+//        let nextViewController = storyBoard.instantiateViewController(withIdentifier: "Service")
+//        viewController.present(nextViewController, animated:true, completion:nil)
+//    }
     
     
     public static func someMethod () -> String {
