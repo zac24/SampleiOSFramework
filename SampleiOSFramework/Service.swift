@@ -29,7 +29,7 @@ public class Service: UIViewController {
 ////      setUpView()
 //    }
     
-    func testApiCall () {
+    public static func testApiCall () {
         AF.request("https://postman-echo.com/get?foo1=bar1&foo2=bar2").responseJSON { response in
             print(response.response) // http url response
             print(response.result)  // response serialization result
