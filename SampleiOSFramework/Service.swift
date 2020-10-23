@@ -8,6 +8,7 @@
 
 import UIKit
 import Foundation
+import Alamofire
 
 public class Service: UIViewController {
     @IBOutlet var backgroundView: UIView!
@@ -27,6 +28,16 @@ public class Service: UIViewController {
 //       super.init(coder: aDecoder)
 ////      setUpView()
 //    }
+    
+    func testApiCall () {
+        AF.request("https://postman-echo.com/get?foo1=bar1&foo2=bar2").responseJSON { response in
+            print(response.response) // http url response
+            print(response.result)  // response serialization result
+            if let json = response.result.value {
+                print("JSON: \(json)") // serialized json response
+            }
+        }
+    }
     
 //    private func setUpView() {
 //        let bundle = Bundle(for: type(of: self))
